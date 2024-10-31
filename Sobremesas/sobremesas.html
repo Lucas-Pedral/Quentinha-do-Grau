@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Sobremesas/sobremesas.css">
+    <title>Cardapio de Jantar</title>
+</head>
+
+<header>
+    <img src="/Imagens/Imagem_logo.png" alt="Logo Quentinhas do Grau" style="height: 200px; width: 600px;">
+    <h1>Quentinhas do Grau</h1>
+    <p>Cardápio de Sobremesas</p>
+  </header>
+
+<nav>
+    <ul>
+        <a href="/Inicio/inicio.html" class="button">Inicío</a>
+    <a href="/Almoço/almoco.html" class="button">Opções de Almoço</a>
+    <a href="/Jantar/jantar.html" class="button">Opções de Jantar</a>
+    <a href="/Bebidas/bebida.html" class="button">Opções de Bebidas</a>
+    <a href="/Sobremesas/sobremesas.html" class="button">Opções de Sobremesas</a>
+    </ul>
+</nav>
+
+
+    <section>
+        <h2>Sobremesas</h2>
+        <ul>
+            <li class="menu-item">
+                <img src="/Imagens/bolo.avif" alt="bolo">
+                <p>Bolo de Chocolate - R$ 8,00</p>
+                <button class="add-btn">Adicionar Produto</button>
+            </li>
+            <li class="menu-item">
+                <img src="/Imagens/deliciosos-sorvetes-com-cobertura-de-caramelo_23-2148425390.avif" alt="sorvete">
+                <p>Sorvete - R$ 6,00</p>
+                <button class="add-btn">Adicionar Produto</button>
+            </li>
+            <li class="menu-item">
+                <img src="/Imagens/pudim.avif" alt="pudim">
+                <p>Pudim - R$ 7,00</p>
+                <button class="add-btn">Adicionar Produto</button>
+            </li>
+            <li class="menu-item">
+                <img src="/Imagens/alto-angulo-de-rack-de-refrigeracao-com-brownies-e-chaleira_23-2148569710.avif" alt="Brownie">
+                <p>Brownie - R$ 9,00</p>
+                <button class="add-btn">Adicionar Produto</button>
+            </li>
+            <li class="menu-item">
+                <img src="/Imagens/torta.avif" alt="torta">
+                <p>Torta - R$ 8,50</p>
+                <button class="add-btn">Adicionar Produto</button>
+            </li>
+            <li class="menu-item">
+                <img src="/Imagens/petit.avif" alt="petit">
+                <p>Petit gâteau - R$ 5,00</p>
+                <button class="add-btn">Adicionar Produto</button>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Carrinho</h2>
+        <ul id="carrinho-list"></ul>
+        <p>Total: R$ <span id="total">0.00</span></p>
+    </section>
+    
+</body>
+<script src="/java/main.js"></script>
+</html>

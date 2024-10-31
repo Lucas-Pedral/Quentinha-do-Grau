@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Jantar/jantar.css">
+</head>
+<body>
+    <header>
+        <img src="/Imagens/Imagem_logo.png" alt="Logo Quentinhas do Grau" style="height: 200px; width: 600px;">
+        <h1>Quentinhas do Grau</h1>
+        <p>Cardápio de Bebidas</p>
+      </header>
+
+<nav>
+    <ul>
+        <li><a href="/Inicio/inicio.html">Inicío</a></li>
+        <li><a href="/Almoço/almoco.html" class="button">Opções de Almoço</a></li>
+        <li><a href="/Jantar/jantar.html" class="button">Opções de Jantar</a></li>
+        <li><a href="/Bebidas/bebida.html" class="button">Opções de Bebidas</a></li>
+        <li><a href="/Sobremesas/sobremesas.html" class="button">Opções de Sobremesas</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Bebidas</h2>
+    <ul>
+        <li class="menu-item">
+            <img src="/Imagens/sucos-de-frutas_1197721-69873.avif" alt="sucos">
+            <p>Suco Natural - R$ 5,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item">
+            <img src="/Imagens/fundo-de-latas-de-bebidas.avif" alt="latas">
+            <p>Refrigerante - R$ 4,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item">
+            <img src="/Imagens/silhueta-de-garrafa-e-copo_144627-14024.avif" alt="garrafa">
+            <p>Água Mineral - R$ 2,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item">
+            <img src="/Imagens/cafe-expresso-quente-com-croissant-em-cima-da-mesa_140725-7359.avif" alt="cafe">
+            <p>Café - R$ 3,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item">
+            <img src="/Imagens/cha-em-frascos_23-2147776723.jpg" alt="cha">
+            <p>Chá Gelado - R$ 4,50</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item">
+            <img src="/Imagens/celebracao-da-oktoberfest-com-muita-cerveja_23-2151646777.avif" alt="Cerveja">
+            <p>Cerveja - R$ 6,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Carrinho</h2>
+    <ul id="carrinho-list"></ul>
+    <p>Total: R$ <span id="total">0.00</span></p>
+</section>
+
+<script src="/java/main.js"></script>
+</body>
+</html>

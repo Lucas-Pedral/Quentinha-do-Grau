@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio de Almoço</title>
+    <link rel="stylesheet" href="almoco.css">
+</head>
+<body>
+
+<header>
+    <img src="/Imagens/Imagem_logo.png" alt="Logo Quentinhas do Grau" style="height: 200px; width: 600px;">
+    <h1>Quentinhas do Grau</h1>
+    <p>Cardápio de almoço</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="/Inicio/inicio.html">Inicío</a></li>
+        <li><a href="/Almoço/almoco.html" class="button">Opções de Almoço</a></li>
+        <li><a href="/Jantar/jantar.html" class="button">Opções de Jantar</a></li>
+        <li><a href="/Bebidas/bebida.html" class="button">Opções de Bebidas</a></li>
+        <li><a href="/Sobremesas/sobremesas.html" class="button">Opções de Sobremesas</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Almoço</h2>
+    <ul>
+        <li class="menu-item" data-nome="Lasanha" data-preco="40.00">
+            <img src="/Imagens/lasanha.jpg" alt="Lasanha">
+            <p>Lasanha - R$ 40,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item" data-nome="Macarrão a Bolonhesa" data-preco="36.00">
+            <img src="/Imagens/macarrão_a_bolonhesa.jpg" alt="Macarrão a Bolonhesa">
+            <p>Macarrão a Bolonhesa - R$ 36,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item" data-nome="Escalope" data-preco="45.00">
+            <img src="/Imagens/Escalope_ao_molho_madeira.jpg" alt="Escalope">
+            <p>Escalope ao molho madeira - R$ 45,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item" data-nome="Ravioli" data-preco="40.00">
+            <img src="/Imagens/Ravioli_com_molho_branco_e_calabresa.jpg" alt="Ravioli">
+            <p>Ravioli com molho branco e calabresa - R$ 40,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item" data-nome="Abobrinha recheada" data-preco="30.00">
+            <img src="/Imagens/Abobrinha recheada.jpg" alt="Abobrinha recheada">
+            <p>Abobrinha recheada - R$ 30,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+        <li class="menu-item" data-nome="Estrogonofe" data-preco="40.00">
+            <img src="/Imagens/Estrogonofe de cogumelos.jpg" alt="Estrogonofe de cogumelos">
+            <p>Estrogonofe de cogumelos - R$ 40,00</p>
+            <button class="add-btn">Adicionar Produto</button>
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Carrinho</h2>
+    <ul id="carrinho-list"></ul>
+    <p>Total: R$ <span id="total">0.00</span></p>
+</section>
+
+<script src="/java/main.js"></script>
+</body>
+</html>
